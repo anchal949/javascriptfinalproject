@@ -43,10 +43,19 @@ E: info@mail.com<h4>
   <div class="fontonslider">
   	ELEGANCE
   </div>
-  <div>
-  	<p id="quick"></p>
+  <div class="typed">
+  <h2><span class="type"></span></h2>
  </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script>
+  var typed = new Typed('.type', {
+  strings: [ "AWESOME THEME", "MODERN COMBINATION","CREATIVE SOLUTIONS"],
+  typeSpeed: 60,
+  backSpeed:60,
+  loop: true 
+});
+</script>
 
 <div class="middle">
   <h1><u>HIS</u>TORY OF AGENCY</h1></p>
@@ -118,12 +127,14 @@ Expound the actual teachings of the great explorer of the truth, the master-buil
       your Country
     </div>
     <div class="fmiddle">
-      <div class="icons2">&nbsp&nbsp
+      <div class="icons2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
       <i class="fab fa-facebook-f"></i>&nbsp&nbsp
       <i class="fab fa-twitter"></i>&nbsp&nbsp
       <i class="fab fa-linkedin-in"></i>&nbsp&nbsp
       <i class="fas fa-basketball-ball"></i>&nbsp&nbsp
-      <i class="fab fa-flickr"></i><br><br></div>
+      <i class="fab fa-flickr"></i>&nbsp&nbsp
+      <i class="fab fa-pinterest"></i>
+      <br><br></div>
       <p class="ffont" id="footmid">© 2019 OAK, ALL RIGHTS RESERVED</p>
   </div>
   <div id="fright">
@@ -132,6 +143,7 @@ Expound the actual teachings of the great explorer of the truth, the master-buil
      E:info@mail.com<br>
 W:www.website.com</p>
 </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 
 </body>
 </html>

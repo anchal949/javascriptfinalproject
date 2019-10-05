@@ -274,3 +274,15 @@ margin-left: 95%;
 .brand{
   margin-left: 13%;
 }
+.typed{
+  position: absolute;
+  font-family: 'Courier New';
+  font-size: 25px;
+  margin-left: 12%;
+
+}
+#myBtn{
+  background-color: white;
+  margin-left: 95%;
+padding: 15px;
+}
